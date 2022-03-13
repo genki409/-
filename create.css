@@ -59,8 +59,31 @@ body {
     background: linear-gradient(#315166, #162735);
 }
 
+.input-form-outside {
+    width: 1050px;
+    height: 1175px;
+    background-color: #FCE4E7;
+    margin: 179px 231px;
+}
 
+.input-form {
+    width: 970px;
+    height: 1090px;
+    background-color: aquamarine;
+    margin: 40px;
+    text-align: center;
+}
 
+.form-top {
+    width: 397px;
+    height: 510px;
+}
+
+.form-left {
+    width: 397px;
+    height: 510px;
+    background-color: firebrick;
+}
 
 
 
