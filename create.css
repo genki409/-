@@ -57,6 +57,7 @@ body {
     width: 100%;
     height: 90%;
     background: linear-gradient(#315166, #162735);
+    z-index: 1;
 }
 
 .input-form-outside {
@@ -64,6 +65,7 @@ body {
     height: 1175px;
     background-color: #FCE4E7;
     margin: 179px 231px;
+    z-index: 10;
 }
 
 .input-form {
@@ -72,19 +74,26 @@ body {
     background-color: aquamarine;
     margin: 40px;
     text-align: center;
+    z-index: 20;
 }
 
 .form-top {
     width: 397px;
     height: 510px;
+    display: flex;
+    z-index: 30;
 }
 
-.form-left {
+.top-left {
     width: 397px;
     height: 510px;
     background-color: firebrick;
 }
 
+.ingredient-bottom {
+    display: flex;
+    flex-direction: column;
+}
 
 
 /* footer */
