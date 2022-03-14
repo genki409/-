@@ -63,7 +63,7 @@ body {
 .input-form-outside {
     width: 1050px;
     height: 1175px;
-    background-color: #FCE4E7;
+    background: linear-gradient(#B69E82, #483E34);
     margin: 179px 231px;
     z-index: 10;
 }
@@ -71,7 +71,7 @@ body {
 .input-form {
     width: 970px;
     height: 1090px;
-    background-color: aquamarine;
+    background-color: #F0EBE5;
     margin: 40px;
     text-align: center;
     z-index: 20;
@@ -90,7 +90,18 @@ body {
     background-color: firebrick;
 }
 
+.form-middle {
+    width: 397px;
+    height: auto;
+    display: flex;
+}
+
 .ingredient-bottom {
+    display: flex;
+    flex-direction: column;
+}
+
+.quantity-bottom {
     display: flex;
     flex-direction: column;
 }
