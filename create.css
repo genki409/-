@@ -197,12 +197,14 @@ body {
 }
 
 .puls {
-    width: 30px;
-    height: 30px;
+    width: 32px;
+    height: 32px;
+    font-size: 20px;
     color: white;
     background-color: #BEBEBE;
     border-radius: 30%;
     text-shadow: 3px 3px 3px #7B7078;
+    margin: 117px 0 0 44px;
 }
 
 .ingredient-bottom input, .quantity-bottom input {
