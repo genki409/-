@@ -85,6 +85,8 @@ body {
     /* padding-top: 89px; */
 }
 
+/* form */
+
 .input-form-outside {
     width: 971px;
     height: 1130px;
@@ -101,6 +103,8 @@ body {
     text-align: center;
     z-index: 20;
 }
+
+/* form-top */
 
 .form-top {
     width: 100%;
@@ -121,12 +125,24 @@ body {
 
 .top-right input {
     width: 362px;
-    height: 37px;
     font-size: 19px;
 }
 
-.date, .name, .base, .taste, .featuru, .form-middle h4 {
-    font-size: 25px;
+.date input {
+    height: 37px;
+}
+
+.name input, .base input, .taste input {
+    height: 33px;
+}
+
+.featuru textarea {
+    width: 363px;
+    height: 112px;
+}
+
+.date, .name, .base, .taste, .featuru {
+    font-size: 23px;
     color: #00577C;
 }
 
@@ -134,11 +150,23 @@ body {
     margin-top: 57px;
 }
 
-.name, .base, .taste, .featuru {
+.name {
     margin-top: 40px;
 }
 
+.base {
+    margin-top: 39px;
+}
 
+.taste {
+    margin-top: 41px;
+}
+
+.featuru {
+    margin-top: 40px;
+}
+
+/* form-middle */
 
 .form-middle {
     width: 100%;
@@ -146,20 +174,32 @@ body {
     display: flex;
 }
 
+.ingredient-top, h4 {
+    width: 100%;
+    font-size: 22px;
+    color: #00577C;
+    margin: 15px 58px 15px 0;
+}
+
 .ingredient-bottom input, .quantity-bottom input {
-    width: 320px;
+    width: 315px;
     height: 38px;
 }
 
-.ingredient-bottom {
+.ingredient-bottom, .quantity-bottom {
+    width: 50%;
     display: flex;
     flex-direction: column;
 }
 
-.quantity-bottom {
-    display: flex;
-    flex-direction: column;
+.ingredient-bottom input {
+    margin: 0 58px 0 107px;
 }
+
+.quantity-bottom {
+    margin: 0 107px 0 56px;
+}
+
 
 /* ページトップボタン */
 
