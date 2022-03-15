@@ -54,46 +54,101 @@ body {
 /* main */
 
 .main {
-    width: 100%;
-    height: 90%;
+    width: auto;
+    height: auto;
     background: linear-gradient(#315166, #162735);
     z-index: 1;
+    padding: 0 231px;
+}
+
+.main-top {
+    text-align: center;
+    padding-top: 49px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.main-top h2 {
+    margin-bottom: 10px;
+}
+
+.glass {
+    height: 80px;
+}
+
+.main-top h2 {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    /* padding-top: 89px; */
 }
 
 .input-form-outside {
-    width: 1050px;
-    height: 1175px;
+    width: 971px;
+    height: 1130px;
     background: linear-gradient(#B69E82, #483E34);
-    margin: 179px 231px;
     z-index: 10;
+    padding: 42px 39px 0 39px;
 }
 
 .input-form {
     width: 970px;
-    height: 1090px;
+    height: 1089px;
     background-color: #F0EBE5;
-    margin: 40px;
+    /* margin: 20px; */
     text-align: center;
     z-index: 20;
 }
 
 .form-top {
-    width: 397px;
+    width: 100%;
     height: 510px;
     display: flex;
     z-index: 30;
 }
 
 .top-left {
-    width: 397px;
+    width: 41%;
     height: 510px;
-    background-color: firebrick;
+    background-color: darkgray;
 }
 
+.top-right {
+    width: 59%;
+}
+
+.top-right input {
+    width: 362px;
+    height: 37px;
+    font-size: 19px;
+}
+
+.date, .name, .base, .taste, .featuru, .form-middle h4 {
+    font-size: 25px;
+    color: #00577C;
+}
+
+.date {
+    margin-top: 57px;
+}
+
+.name, .base, .taste, .featuru {
+    margin-top: 40px;
+}
+
+
+
 .form-middle {
-    width: 397px;
+    width: 100%;
     height: auto;
     display: flex;
+}
+
+.ingredient-bottom input, .quantity-bottom input {
+    width: 320px;
+    height: 38px;
 }
 
 .ingredient-bottom {
@@ -106,6 +161,24 @@ body {
     flex-direction: column;
 }
 
+/* ページトップボタン */
+
+.main-bottom a {
+    display: block;
+    color: #FCE4E7;
+    text-align: center;
+    margin-top: 2px;
+    border: 3px solid #FCE4E7;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    margin: 60px auto;
+}
+
+.fas {
+    font-size: 29px;
+    margin-top: 2px;
+}
 
 /* footer */
 
@@ -119,7 +192,7 @@ body {
     align-items: center;
 }
 
-.footer > h3 {
+.footer h3 {
     color: white;
     font-size: 24px;
     margin-top: 10px;
@@ -128,7 +201,7 @@ body {
     font-family: せのびゴシック;
 }
 
-.footer > p {
+.footer p {
     color: white;
     font-size: 14px;
 }

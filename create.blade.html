@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="create.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/7d803bff65.js" crossorigin="anonymous"></script>
+    
     <title>Document</title>
 </head>
 <body>
@@ -18,11 +21,16 @@
         </ul>
     </header>
     <main class="main">
+        <div class="main-top">
+            <h2>新規登録</h2>
+            <img class="glass" src="グラス.png" alt="グラス">
+        </div>
         <div class="input-form-outside">
             <div class="input-form">
                 <div class="form-top">
                     <div class="top-left">
-                        <p>aa</p>
+                        <input id="image" type="file" accept="image/*">
+                        <img id="preview">
                     </div>
                     <div class="top-right">
                         <div class="date">
@@ -65,7 +73,7 @@
                             <h4>分量</h4>
                         </div>
                         <div class="quantity-bottom">
-                            <input type="text" class="quantity" placeholder="45ml">
+                            <input type="text" class="quantity"  placeholder="45ml">
                             <input type="text" class="quantity2" placeholder="FullUP">
                             <input type="text" class="quantity3" placeholder="1/6個">
                         </div>
@@ -73,7 +81,7 @@
                 </div>
                 <div class="form-bottom">
                     <h4>コメント（５００文字）</h4>
-                    <textarea name="example1" cols="110" rows="10"></textarea>
+                    <textarea  name="example1" cols="110" rows="10"></textarea>
                 </div>
                 <!-- 登録ボタン -->
                 <div class="register">
@@ -81,10 +89,19 @@
                 </div>
             </div>
         </div>
+        <div class="memory">
+            <a class="memory-list" href="">>> 思い出一覧に戻る</a>
+        </div>
+        <!-- ページトップボタン -->
+        <div class="main-bottom">
+            <a href="#page-top"><i class="fas fa-angle-up"></i></a>
+        </div>
     </main>
     <footer class="footer">
         <h3>ここ酒</h3>
         <p>copyright &copy; 2022 the 5th class All Rights Reserved</p>
     </footer>
+    <script src="spript.js"></script>
 </body>
+
 </html>
