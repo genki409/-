@@ -238,6 +238,22 @@ body {
     border: solid 2px #BAA68B;
 }
 
+/* 登録ボタン */
+
+.memory {
+    width: 100%;
+
+}
+
+.memory-list {
+    display: block;
+    text-align: center;
+    margin-top: 42px;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
 
 /* ページトップボタン */
 
