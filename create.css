@@ -1,7 +1,3 @@
-body {
-    height: 2020px;
-}
-
 /* header */
 
 .header {
@@ -55,7 +51,7 @@ body {
 
 .main {
     width: auto;
-    height: auto;
+    height: 1596px;
     background: linear-gradient(#315166, #162735);
     z-index: 1;
     padding: 0 231px;
@@ -182,10 +178,15 @@ body {
 }
 
 .ingredient-top, h4 {
-    width: 100%;
     font-size: 22px;
     color: #00577C;
-    margin: 15px 58px 15px 0;
+    margin: 15px 111px 15px 0;
+}
+
+.quantity-top h4 {
+    font-size: 22px;
+    color: #00577C;
+    margin: 15px 328px 15px 0;
 }
 
 .left-increase {
@@ -232,7 +233,7 @@ body {
 
 .form-bottom textarea {
     width: 755px;
-    height: 181px;
+    height: 177px;
     font-size: 19px;
     background-color: #F0EBE5;
     border: solid 2px #BAA68B;
