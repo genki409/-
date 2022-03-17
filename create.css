@@ -117,8 +117,15 @@
     background-color: darkgray;
 }
 
-/* .top-right {
+.top-right {
     width: 59%;
+}
+
+.top-right-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 470px;
 }
 
 .top-right input {
@@ -153,6 +160,7 @@
     text-align: left;
     margin-left: 20px;
     display: flex;
+    justify-content: space-between;
 }
 
 .top-right label {
@@ -177,7 +185,7 @@
 
 .featuru {
     margin-top: 40px;
-} */
+}
 
 /* form-middle */
 
@@ -319,10 +327,3 @@
 
 
 
-
-/* .top-right-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 800px;
-} */
