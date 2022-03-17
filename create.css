@@ -1,3 +1,7 @@
+/* ページ内リンクの挙動をゆっくりにする */
+
+html { scroll-behavior: smooth;}
+
 /* header */
 
 .header {
@@ -287,13 +291,12 @@
 
 .page-top-btn a {
     display: block;
-    color: #FCE4E7;
+    /* color: #FCE4E7; */
     text-align: center;
     margin-top: 2px;
-    border: 3px solid #FCE4E7;
+    /* border: 3px solid #FCE4E7; */
     border-radius: 100%;
     width: 35px;
-    height: 35px;
     margin: 86px auto;
 }
 
