@@ -125,6 +125,12 @@ html { scroll-behavior: smooth;}
     background-color: darkgray;
 }
 
+#preview img {
+    width: 200px;
+    margin: 10px;
+    border: solid 1px silver;
+  }
+
 .top-right {
     width: 59%;
 }
@@ -145,7 +151,7 @@ html { scroll-behavior: smooth;}
     height: 37px;
     background-color: #F0EBE5;
     border: solid 2px #BAA68B;
-    text-align: right;
+    text-align: left;
 }
 
 .name input, .base input, .taste input {

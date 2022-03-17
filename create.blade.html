@@ -30,16 +30,15 @@
                 <div class="input-form">
                     <div class="form-top">
                         <div class="top-left">
-                            <input id="image" type="file" accept="image/*">
-                            <img id="preview">
+                            <input type="file" id="example" multiple>
+                            <!-- 👇ここにプレビュー画像を追加する -->
+                            <div id="preview"></div>
                         </div>
                         <div class="top-right">
                             <div class="top-right-container">
                                 <div class="date">
                                     <label for="start">日付</label>
-                                    <input type="date" id="date" name="date-form"
-                                    value="2022-03-12"
-                                    min="2000-01-01" max="2022-12-31">
+                                    <input type="date" id="today" name="date-form">
                                 </div>
                                 <div class="name">
                                     <label for="name">名前　</label>
@@ -110,7 +109,7 @@
             <p>copyright &copy; 2022 the 5th class All Rights Reserved</p>
         </footer>
     </div>
-    <script src="spript.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
