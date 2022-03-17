@@ -57,6 +57,8 @@
     padding: 0 231px;
 }
 
+/* main-top */
+
 .main-top {
     text-align: center;
     padding-top: 49px;
@@ -115,7 +117,7 @@
     background-color: darkgray;
 }
 
-.top-right {
+/* .top-right {
     width: 59%;
 }
 
@@ -175,7 +177,7 @@
 
 .featuru {
     margin-top: 40px;
-}
+} */
 
 /* form-middle */
 
