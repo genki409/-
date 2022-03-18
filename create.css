@@ -311,6 +311,23 @@ html { scroll-behavior: smooth;}
 
 /* 登録ボタン */
 
+.register {
+
+}
+
+.register-btn {
+    width: 158px;
+    height: 40px;
+    background-color: #355469;
+    font-size: 19px;
+    color: white;
+    margin-top: 24px;
+}
+
+.register-btn:hover {
+    background-color: #1A4D6F;
+}
+
 .memory {
     width: 100%;
 
@@ -343,6 +360,8 @@ html { scroll-behavior: smooth;}
     font-size: 29px;
     margin-top: 2px;
 }
+
+
 
 /* footer */
 
