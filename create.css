@@ -24,7 +24,7 @@ html { scroll-behavior: smooth;}
     color: #FCE4E7;
     text-decoration: none;
     display: block;
-    margin-left: 54px;
+    margin: 0 28px 0 54px;
 }
 
 .menu2 {
@@ -32,7 +32,7 @@ html { scroll-behavior: smooth;}
     color: #FCE4E7;
     text-decoration: none;
     display: block;
-    margin-left: 57px;
+    margin: 0 29px;
 }
 
 .menu3 {
@@ -40,7 +40,7 @@ html { scroll-behavior: smooth;}
     color: #FCE4E7;
     text-decoration: none;
     display: block;
-    margin-left: 59px;
+    margin: 0 30px;
 }
 
 .menu4 {
@@ -48,7 +48,27 @@ html { scroll-behavior: smooth;}
     color: #FCE4E7;
     text-decoration: none;
     display: block;
-    margin-left: 60px;
+    margin: 0 30px;
+}
+
+.item .menu:hover {
+font-size: 18px;
+margin: 0 24px 0 50px;
+}
+
+.item .menu2:hover {
+    font-size: 18px;
+    margin: 0 25px;
+}
+
+.item .menu3:hover {
+    font-size: 18px;
+    margin: 0 26px;
+}
+
+.item .menu4:hover {
+    font-size: 18px;
+    margin: 0 26px;
 }
 
 .container {
@@ -318,14 +338,14 @@ html { scroll-behavior: smooth;}
 .register-btn {
     width: 158px;
     height: 40px;
-    background-color: #355469;
+    background-color: #1A4D6F;
     font-size: 19px;
     color: white;
     margin-top: 24px;
 }
 
 .register-btn:hover {
-    background-color: #1A4D6F;
+    background-color: #103350;
 }
 
 .memory {
@@ -342,25 +362,23 @@ html { scroll-behavior: smooth;}
     text-decoration: none;
 }
 
+.memory-list:hover {
+    font-size: 16px;
+    margin-top: 40px;
+}
+
 
 /* ページトップボタン */
 
 .page-top-btn a {
     display: block;
-    /* color: #FCE4E7; */
-    text-align: center;
-    margin-top: 2px;
-    /* border: 3px solid #FCE4E7; */
-    border-radius: 100%;
     width: 35px;
     margin: 86px auto;
 }
 
-.page-top-btn .fas {
-    font-size: 29px;
-    margin-top: 2px;
-}
+.page-top-btn a:hover {
 
+}
 
 
 /* footer */
