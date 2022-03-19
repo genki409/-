@@ -25,6 +25,7 @@ html { scroll-behavior: smooth;}
     text-decoration: none;
     display: block;
     margin: 0 28px 0 54px;
+    transition: all 0.3s;
 }
 
 .menu2 {
@@ -33,6 +34,7 @@ html { scroll-behavior: smooth;}
     text-decoration: none;
     display: block;
     margin: 0 29px;
+    transition: all 0.3s;
 }
 
 .menu3 {
@@ -41,6 +43,7 @@ html { scroll-behavior: smooth;}
     text-decoration: none;
     display: block;
     margin: 0 30px;
+    transition: all 0.3s;
 }
 
 .menu4 {
@@ -49,27 +52,12 @@ html { scroll-behavior: smooth;}
     text-decoration: none;
     display: block;
     margin: 0 30px;
+    transition: all 0.3s;
 }
 
-.item .menu:hover {
-font-size: 18px;
-margin: 0 24px 0 50px;
-}
-
-.item .menu2:hover {
-    font-size: 18px;
-    margin: 0 25px;
-}
-
-.item .menu3:hover {
-    font-size: 18px;
-    margin: 0 26px;
-}
-
-.item .menu4:hover {
-    font-size: 18px;
-    margin: 0 26px;
-}
+.item a:hover {
+    opacity: 0.5;
+} 
 
 .container {
     width: 1510px;
@@ -152,6 +140,7 @@ margin: 0 24px 0 50px;
 #preview {
     width: 261px;
     height: 377px;
+    margin-top: 57px;
 }
 
 #preview img {
@@ -342,10 +331,11 @@ margin: 0 24px 0 50px;
     font-size: 19px;
     color: white;
     margin-top: 24px;
+    transition: all 0.3s;
 }
 
 .register-btn:hover {
-    background-color: #103350;
+    background-color: #1a4d6fcc;
 }
 
 .memory {
@@ -360,11 +350,11 @@ margin: 0 24px 0 50px;
     color: white;
     font-size: 14px;
     text-decoration: none;
+    transition: all 0.3s;
 }
 
 .memory-list:hover {
-    font-size: 16px;
-    margin-top: 40px;
+  opacity: 0.5;
 }
 
 
@@ -374,10 +364,11 @@ margin: 0 24px 0 50px;
     display: block;
     width: 35px;
     margin: 86px auto;
+    transition: all 0.3s;
 }
 
 .page-top-btn a:hover {
-
+    opacity: 0.5;
 }
 
 
